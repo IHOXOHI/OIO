@@ -1,7 +1,7 @@
 from machine import UART
 from time import sleep_ms
 
-uart = UART(2, 9600)
+uart = UART(2, 9600) #on pybnano
 uart.init(9600, bits=8, parity=None, stop=1)
 
 def resp():
